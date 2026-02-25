@@ -108,6 +108,14 @@ hello.sentinel:1:1 - Rule "main"
 
 以降の章では、Setinel のポリシーコードを実装していく上で有用な様々な機能や仕様について触れていきます。
 
+## ここまでのチェックポイント
+
+- `sentinel -version` で CLI バージョンを確認できる
+- `sentinel apply` で Pass / Fail の違いを説明できる
+- `main = rule { ... }` の評価結果が `true` のときに Pass することを理解できる
+- `sentinel.hcl` で `source` と `enforcement_level` を設定できる
+
+次の章に進む前に、上記 4 点を説明できる状態になっていれば OK です。
 
 ## 参考リンク
 - [Sentinel Language](https://developer.hashicorp.com/sentinel/docs/language)
