@@ -7,25 +7,32 @@ Sentinel では import と呼ばれる構文を用いることで、外部ファ
 Sentinel は、ポリシーの記述言語としての側面だけでなく、開発フローやテストといったポリシー適用に必要な機能も提供するランタイムとしての側面も持っており、
 HashiCorp Enterprise 製品との親和性が高い機能を持ち合わせています。
 
+## はじめに
+
+初学者の方は、最初に [はじめる前に（初学者向けガイド）](contents/getting-started.md) を読むのがおすすめです。
+
 ## Pre-requisite
 
 * 環境
 	* macOS or Linux (Ubuntu 推奨)
 
 * ソフトウェア
-	* Sentinel
-	* HCP Terraform
-	* Vault
-	* Consul
-	* Nomad
-	* Docker
-	* jq, cURL
+	* 必須（入門章）
+		* Sentinel
+	* 任意（連携章）
+		* HCP Terraform
+		* Vault
+		* Consul
+		* Nomad
+		* Docker
+		* jq, cURL
 
-* アカウント
+* アカウント（連携章で利用）
 	* GitHub
 	* AWS / Azure / GCP
 
 ## アジェンダ
+* [はじめる前に（初学者向けガイド）](contents/getting-started.md)
 * [初めての Sentinel](contents/hello-sentinel.md)
 * [Sentinel 設定ファイル](contents/configurations.md)
 * [Sentinel Language](contents/language-features.md)
