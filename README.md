@@ -41,3 +41,4 @@ HashiCorp Enterprise 製品との親和性が高い機能を持ち合わせて�
 * [Consul 連携](contents/consul-integrations.md)
 * [Nomad 連携](contents/nomad-integrations.md)
 * [ポリシーの開発](contents/policy-development.md)
+* [Sentinel 提案ストーリー（お客様向け）](contents/customer-value-proposition.md)
